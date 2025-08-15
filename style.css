@@ -9,18 +9,10 @@
 
 .link{
     color: white;
-    width: 100px;
-    height: auto;
 }
 
 .html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-.linksretos{
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
