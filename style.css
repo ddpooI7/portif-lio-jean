@@ -4,8 +4,15 @@
 
 .header{
     background-color: slateblue;
+    width: 100%;
 }
 
 .link{
     color: white;
+}
+
+.html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
