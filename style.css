@@ -7,7 +7,39 @@
     width: 100%;
 }
 
-.link{
+.link1{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.link2{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.link3{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.link4{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.link5{
     color: white;
     text-decoration: none;
     position: absolute;
