@@ -1,17 +1,18 @@
 .logohtml{
     width: 15%; 
+    text-align: left;
 }
 
 .header{
     background-color: slateblue;
     width: 100%;
-    text-align: center;
 }
 
 .link{
     color: white;
     text-decoration: none;
     font-size: 10px;
+    text-align: right;
 
 }
 
