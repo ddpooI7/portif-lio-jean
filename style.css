@@ -1,5 +1,7 @@
 .logohtml{
-    width: 15%;    
+    width: 15%;  
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .header{
@@ -11,6 +13,9 @@
     color: white;
     text-decoration: none;
     font-size: 10px;
+    display: flex;
+    text-align: right;
+
 }
 
 .html, body{
