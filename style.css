@@ -1,6 +1,8 @@
 .logohtml{
     width: 40%; 
     text-align: left;
+    background-color: slateblue;
+    padding: 10px;
 }
 
 .header{
