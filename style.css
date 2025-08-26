@@ -1,23 +1,29 @@
 .logohtml{
-    width: 40%; 
+    width: 30%; 
     text-align: left;
-    padding: 3px;
+    padding: 6px;
 }
 
 .header{
     background-color: slateblue;
     width: 100%;
-    text-align: right;
+    height: 160px;
 }
 
 .link{
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 30px;
+    padding: 10px;
+
+    text-align: right; 
 }
 
 .html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+}
+body{
+    background-color: black;
 }
