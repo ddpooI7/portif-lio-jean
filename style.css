@@ -1,13 +1,27 @@
 .logohtml{
-    width: 30%; 
-    text-align: left;
-    padding: 6px;
+    display: flex;
+    align-items: flex-start;
+}
+.logo-img {
+    max-height: 100px; /* ou o tamanho que quiser */
+    height: auto;
+    width: auto;
 }
 
 .header{
     background-color: slateblue;
     width: 100%;
     height: 160px;
+    display: flex;
+    justify-content: space-between; /* separa a logo e os links */
+    align-items: center;           /* centraliza verticalmente */
+    padding: 10px 40px;                /* espaço interno opcional */
+}
+
+nav.link {
+    display: flex;
+    align-items: center; /* centraliza links verticalmente */
+    gap: 20px; /* espaçamento entre links */
 }
 
 .link{
@@ -15,15 +29,16 @@
     text-decoration: none;
     font-size: 30px;
     padding: 10px;
-
-    text-align: right; 
 }
 
-.html, body{
+.html{
     margin: 0;
     padding: 0;
     height: 100%;
 }
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
