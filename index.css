@@ -1,0 +1,71 @@
+.logohtml {
+    width: 6%;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    border-bottom: 10px solid midnightblue;
+    padding: 10px 20px;  /* topo e base, direita e esquerda  */
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+    font-family: "Fira Code";
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    color: cadetblue;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+
+
+a:before {
+    content: "";
+    background-color: midnightblue;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: lightsteelblue;
+    box-shadow: 5px 5px 0px midnightblue;
+    padding: 18px 20px 18px 20px;   /* topo, direita, base, esquerda */
+    margin-right: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, 
+                background-color 0.3s ease, 
+                box-shadow 0.3s ease;
+    border-radius: 2em;
+}
+#button2{
+    display: inline-block;
+    background-color: rgb(57, 56, 56);
+    box-shadow: 5px 5px 0px black;
+    padding: 40px 70px; 
+}
+
+a:hover{
+    transform: scale(1.07);
+    color: midnightblue;
+}
+
+
+#button:hover {
+  transform: scale(1.07);      /* aumenta levemente o botão */
+  background-color: lightslategray;
+}
